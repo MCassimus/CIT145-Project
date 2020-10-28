@@ -1,6 +1,6 @@
 # CIT-145 Project - Linux Mint
-Michael Cassimus & Ben Howard
-----------
+Authors - Michael Cassimus & Ben Howard
+
 ### Project Requirements
 - Links
 - Images
@@ -12,7 +12,8 @@ Michael Cassimus & Ben Howard
 - Custom CSS sheet
 - Minimum number of pages
 - Mobile friendly
+
 ----------
 ### Hosting
 This project is hosted with Github pages at
-[mcassimus.github.io/LinuxMint/pages/index.html](https://mcassimus.github.io/LinuxMint/pages/index.html)
+[mcassimus.github.io/LinuxMint/](https://mcassimus.github.io/LinuxMint/pages/index.html)
