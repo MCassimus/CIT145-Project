@@ -19,5 +19,4 @@ This project is hosted with Github pages at
 
 
 ### Repository
-
 Source code can be viewed at [the project GitHub repository](https://github.com/MCassimus/LinuxMint)
