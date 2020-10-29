@@ -15,7 +15,7 @@ Authors - Michael Cassimus & Ben Howard
 
 ### Hosting
 This project is hosted with Github pages at
-[mcassimus.github.io/LinuxMint/](https://mcassimus.github.io/LinuxMint/pages/index.html)
+[mcassimus.github.io/LinuxMint/](https://mcassimus.github.io/LinuxMint/)
 
 
 ### Repository
