@@ -51,37 +51,73 @@
 	<main>
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<form>
-						<fieldset>
-							<legend class="text-center">Additional Inquiries</legend>
-							<div class="form-group">
-								<label for="exampleInputEmail1">Email address</label>
-								<input type="email" class="form-control" id="exampleInputEmail1"
-									aria-describedby="emailHelp" placeholder="Enter email">
-								<small id="emailHelp" class="form-text text-muted">We address all inquires
-									within 48 hours. For any issue/bug related inquiries, please refer to our
-									<a
-										href="https://linuxmint-troubleshooting-guide.readthedocs.io/en/latest/">troubleshooting
-										information</a>.</small>
-							</div>
-							<div class="form-group">
-								<label for="exampleTextarea">Message</label>
-								<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-							</div>
-							<div class="form-group">
-								<label for="exampleInputFile">File input</label>
-								<input type="file" class="form-control-file" id="exampleInputFile"
-									aria-describedby="fileHelp">
-								<small id="fileHelp" class="form-text text-muted">Have some documents to
-									share?</small>
-							</div>
-
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</fieldset>
-					</form>
+				<div class="col text-center">
+					<h4>Why Install Linux Mint?</h3>
+						<hr>
+						<p>
+							There are many tools that are found within the base install of Linux Mint and there
+							are many more that can be download within the operating system or a custom build of
+							it. The mint tools as they are called are the usual tools that are included in most
+							Linux operating systems. There’s the software manager which is referred to as
+							mintinstall within the operating system. The update manager which takes care of
+							helping inexperienced users from installing updates that are unnecessary or require a
+							certain level of knowledge to configure properly. There’s also the main menu, backup
+							tool, and many other tools that are very commonly found within Linux operating
+							systems, and yes, they too have very minty based names that we will use during our
+							presentation.
+						</p>
+						<p>
+							There are three desktop environments that are available for Mint and choosing the
+							right one can be a hard choice if you aren’t too informed about the differences. In
+							this section we will cover the three desktop environments. The three environments are
+							MATE, XFCE, and cinnamon. Cinnamon seems to the most popular of the three choices
+							because of its beauty and that’s its primarily developed for mint. XFCE is a very
+							lightweight install of mint and doesn’t support nearly as many features as the other
+							two. MATE is the continuation if gnome2 which is mints default desktop environment
+							from 2006 to 2011 and is still a popular choice for the user.
+						</p>
 				</div>
 			</div>
+			<hr>
+			<h4 class="text-center">Additional Inquiries</h3>
+				<hr>
+				<div class="row">
+					<div class="col-12">
+						<form>
+							<fieldset>
+								<div class="form-group">
+									<label for="nameInput">Name</label>
+									<input type="text" class="form-control" id="nameInput"
+										aria-describedby="emailHelp" placeholder="Name / Alias">
+								</div>
+								<div class="form-group">
+									<label for="emailInput">Email address</label>
+									<input type="email" class="form-control" id="emailInput"
+										aria-describedby="emailHelp" placeholder="Enter email">
+									<small id="emailHelp" class="form-text text-muted">We address all inquires
+										within 48 hours. For any issue/bug related inquiries, please refer to
+										our
+										<a
+											href="https://linuxmint-troubleshooting-guide.readthedocs.io/en/latest/">troubleshooting
+											information</a>.</small>
+								</div>
+								<div class="form-group">
+									<label for="messageBox">Message</label>
+									<textarea class="form-control" id="messageBox" rows="5"></textarea>
+								</div>
+								<div class="form-group">
+									<input type="file" class="form-control-file" id="filePicker"
+										aria-describedby="fileHelp">
+									<small id="fileHelp" class="form-text text-muted">Have some documents to
+										share with us?</small>
+								</div>
+
+								<button type="submit"
+									class="d-block mx-auto mx-0 btn btn-primary">Submit</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
 		</div>
 	</main>
 	<footer class="container-fluid py-4">
