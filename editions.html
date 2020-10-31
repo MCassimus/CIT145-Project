@@ -12,39 +12,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="styles/css/bootstrap.css">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">
-			<img class="d-inline-block" src="assets/LinuxMintLogo.png" width="48" height="auto"
-				alt="Linix Mint Logo">
-			<h3 class="align-middle d-inline">Mint</h3>
-		</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-			aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+		<div class="container">
 
-		<div class="collapse navbar-collapse justify-content-end" id="navbar">
-			<ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-center">
-				<li class="nav-item">
-					<a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="editions.html">Editions</a>
-				</li>
-			</ul>
+			<a class="navbar-brand" href="index.html">
+				<img class="d-inline-block" src="assets/LinuxMintLogo.png" width="48" height="auto"
+					alt="Linix Mint Logo">
+				<h3 class="align-middle d-inline">Mint</h3>
+			</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+				aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse justify-content-end" id="navbar">
+				<ul class="navbar-nav text-center">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="editions.html">Editions</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pitch.html">Why Mint?</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="development.html">Development</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 	<main>
-
 		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<table class="mx-auto table table-striped table-inverse table-responsive">
+			<div class="row justify-content-center">
+				<div class="col-auto">
+					<table class="table table-striped table-responsive text-center">
 						<thead class="thead-inverse">
 							<tr>
 								<th></th>
@@ -55,27 +63,89 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td scope="row">Feature 1</td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td scope="row">Window Manager</td>
+								<td>Muffin</td>
+								<td>Marco</td>
+								<td>Xfwm4</td>
 							</tr>
 							<tr>
-								<td scope="row">Feature 2</td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td scope="row">File Manager</td>
+								<td>Nemo</td>
+								<td>Caja</td>
+								<td>Thunar</td>
+							</tr>
+							<tr>
+								<td scope="row">Web Browser</td>
+								<td>Firefox</td>
+								<td>Midori</td>
+								<td>Midori</td>
+							</tr>
+							<tr>
+								<td scope="row">Terminal</td>
+								<td>Gnome-Terminal</td>
+								<td>Mate-Terminal</td>
+								<td>Xfce4-terminal</td>
+							</tr>
+							<tr>
+								<td scope="row">Text Editor</td>
+								<td>Gedit</td>
+								<td>Pluma</td>
+								<td>Mousepad</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 			</div>
+			<div class="row text-center my-md-3">
+				<div class="col-md-4">
+					<div class="card border-primary mb-3 mx-auto">
+						<div class="card-header text-white bg-primary">Get Cinnamon</div>
+						<div class="card-body">
+							<p class="card-text">The most modern, innovative and full-featured desktop
+								environment for Linux Mint. Click below to download.</p>
+							<a class="btn btn-outline-primary btn rounded-pill"
+								href="https://linuxmint.com/edition.php?id=281" role="button">Download
+								Cinnamon</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card border-primary mb-3 mx-auto">
+						<div class="card-header text-white bg-primary">Get MATE</div>
+						<div class="card-body">
+							<p class="card-text">Want a more stable and faster desktop experience? MATE is for
+								you. Get your download here.</p>
+							<a class="btn btn-outline-primary btn rounded-pill"
+								href="https://linuxmint.com/edition.php?id=282" role="button">Download
+								MATE</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card border-primary mb-3 mx-auto">
+						<div class="card-header text-white bg-primary">Get Xfce</div>
+						<div class="card-body">
+							<p class="card-text">Want the most stable and lightweight system? We got it for you
+								with Xfce4. Give it a go below.</p>
+							<a class="btn btn-outline-primary btn rounded-pill"
+								href="https://linuxmint.com/edition.php?id=283" role="button">Download
+								Xfce</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+
 	</main>
-	<footer class="container-fluid py-5">
+	<footer class="container-fluid py-4">
 		<div class="row text-center">
 			<div class="col-12">
-				Copy &copy; 2020 Michael Cassimus & Ben Howard
+				Copyright &copy; 2020 Michael Cassimus & Ben Howard
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-12">
+				View site source on <a href="https://github.com/MCassimus/LinuxMint" target="__blank">Github</a>
 			</div>
 		</div>
 	</footer>
