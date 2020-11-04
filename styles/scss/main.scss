@@ -1,0 +1,17 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	margin-top: 1.5em;
+}
+
+#feature-table tbody tr {
+	td:first-child {
+		font-weight: 500;
+	}
+
+	font-weight: 300;
+}
