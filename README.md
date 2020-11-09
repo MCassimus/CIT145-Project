@@ -1,7 +1,7 @@
-## CIT-145 Project - Linux Mint
+## CIT-245 Project - Linux Mint
 Authors - Michael Cassimus & Ben Howard
 
-This is a website for CIT145 regarding a topic with technology. For this project, we have selected to create a site covering Linux Mint.
+This is a website for CIT245 regarding a topic with technology. For this project, we have selected to create a site covering Linux Mint.
 
 ### Project Requirements
 - Links
